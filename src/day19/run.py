@@ -1,6 +1,6 @@
 from src.input import GetInput
 
-INPUT = GetInput(2)
+INPUT = GetInput()
 
 
 def first():
