@@ -9,14 +9,14 @@ def first():
 
 
 def last():
-    sum = 0
+    total = 0
     frequencies = set()
     while True:
         for i in INPUT.value.split():
-            sum += int(i)
-            if sum in frequencies:
-                return sum
-            frequencies.add(sum)
+            total += int(i)
+            if total in frequencies:
+                return total
+            frequencies.add(total)
 
 
 if __name__ == '__main__':
