@@ -4,7 +4,8 @@ INPUT = GetInput(1)
 
 
 def first():
-    return str('First')
+    numbers = INPUT.value.split()
+    return sum(int(i) for i in numbers)
 
 
 def last():
@@ -12,5 +13,5 @@ def last():
 
 
 if __name__ == '__main__':
-    print(first())
-    print(last())
+    print('First: ', first())
+    print('Last: ', last())
